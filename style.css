@@ -1,42 +1,67 @@
+
 body{
       background-image: url("pic/back.jpg");  
       margin: 0;
 }
 
 .container{
-    width: 500px;
+    
     margin: 48px auto 20px;
     background-color:#FFFFFF;
     border: 8px solid #CCCCCC;
     background-color: #66b3ff;
   }
-  #hea{
-    float: right;
-    width: 200px;
-   
-    
-  }
-  #hea a{
-  
-    text-decoration: none;
-    
-  }
- 
  #head{
     
   } 
+  #head a{
+    text-decoration: none;
 
- #head h2{
+ }
+ #head a h2{
    background-color: #FFFFFF;
  	 text-align: center;
-   
+   padding: 30px;
  }
 
 
+/*.menu_bar{
+	width: 650px;
+	overflow: hidden;
+}
+ #zero{
+ 	
+ 	width: 80px;
+ 	float: left;
+
+ }
+
+
+ #zero button{
+ 	width: 120px;
+ 	height: 40px;
+ 	margin-left: 50px;
+ 	
+ }
+ #zero button p{
+ 	font-family: verdana;
+ 	font-size: 12px;
+ 	text-align: center;
+ 	
+ }
+
+ #one{
+    
+ 	width: 120px;
+ 	
+ 	padding-left: 1100px;
+ 	
+ }
+*/
 
  #one button{
- 	 width: 350px;
-   margin: 2px;
+ 	
+   float: right;
  	
  }
 
@@ -44,62 +69,77 @@ body{
       color: #ffffff;
   background-color: #004080;
  } 
-
- #two button{
-   width: 350px;
-   margin: 2px;
+#two{
+  float: right;
+}
+ #two button p{
+ 	font-family: verdana;
+ 	font-size: 12px;
+ 	text-align: center;
   
  }
 
- #two button:hover{
-      color: #ffffff;
-  background-color: #004080;
- } 
- #three{
-    border: 1px solid blue;
-    padding: 5px;
-    margin: 25px;
- }
- #three button{
-   margin: 5px;
-   border-radius: 10px;
- }
 
- #three button:hover{
-      color: #ffffff;
+
+
+ #two button{
+ 	width: 120px;
+ 	height: 40px;
+ 	float: center;
+ }
+#two button:hover{
+  color: #ffffff;
   background-color: #004080;
  }
 
- #four{
-    
-    border: 1px solid blue;
-    margin: 3px;
+ .diff a{
+   color: #000066;
  }
- #four a{
-   
-   margin: 3px;
-   border-radius: 5px;
-   text-decoration: none;
+ .detail{
+     width: 900px;
+    margin: 45px auto 10px;
+    border: 1px solid #CCCCCC;
+    padding: 20px;
+    background-color: #FFFFFF;
  }
-
- #four a:hover{
-      color: #ffffff;
-  background-color: #004080;
- }
- 
 .main{
-	  width: 365px;
+	  width: 350px;
     margin: 45px auto 10px;
     border: 1px solid #CCCCCC;
     padding: 20px;
     background-color: #FFFFFF;
 
 }
+.main1{
+    width: 350px;
+    margin: 45px auto 10px;
+    border: 1px solid #CCCCCC;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+.main1 input{
+  width: 100px;
+  
+  
+}
+.main1 p{
+  width: 100px;
+
+}
 
 
+#new{
+  float: right;
 
-
-
+}
+#new input:hover{
+  color: #ffffff;
+  background-color: #004080;
+ }
+ #new1 input:hover{
+  color: #ffffff;
+  background-color: #004080;
+ }
 #footer{
 
 	text-align: center;
@@ -108,3 +148,6 @@ body{
 #footer p a{
 	color: #4d4d4d;
 }
+
+
+----------------------------------------------------
